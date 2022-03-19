@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     
     let animals: [Animal] = AppData.animals
+    
     var body: some View {
         NavigationView {
             List {

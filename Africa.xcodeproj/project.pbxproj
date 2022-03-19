@@ -19,6 +19,8 @@
 		8B20AE7727E60F8300CB7279 /* InsetFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B20AE7627E60F8300CB7279 /* InsetFactView.swift */; };
 		8B20AE7927E6126C00CB7279 /* InsetMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B20AE7827E6126C00CB7279 /* InsetMapView.swift */; };
 		8B20AE7B27E6156600CB7279 /* ExternalWebLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B20AE7A27E6156600CB7279 /* ExternalWebLinkView.swift */; };
+		8B20AE7D27E617A200CB7279 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B20AE7C27E617A200CB7279 /* Video.swift */; };
+		8B20AE7F27E6183700CB7279 /* VideoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B20AE7E27E6183700CB7279 /* VideoListItemView.swift */; };
 		8B2B273327E5D8C500DDFFF0 /* AfricaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B273227E5D8C500DDFFF0 /* AfricaApp.swift */; };
 		8B2B273527E5D8C500DDFFF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B273427E5D8C500DDFFF0 /* ContentView.swift */; };
 		8B2B273727E5D8C800DDFFF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B2B273627E5D8C800DDFFF0 /* Assets.xcassets */; };
@@ -56,6 +58,8 @@
 		8B20AE7627E60F8300CB7279 /* InsetFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetFactView.swift; sourceTree = "<group>"; };
 		8B20AE7827E6126C00CB7279 /* InsetMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetMapView.swift; sourceTree = "<group>"; };
 		8B20AE7A27E6156600CB7279 /* ExternalWebLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalWebLinkView.swift; sourceTree = "<group>"; };
+		8B20AE7C27E617A200CB7279 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		8B20AE7E27E6183700CB7279 /* VideoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItemView.swift; sourceTree = "<group>"; };
 		8B2B272F27E5D8C500DDFFF0 /* Africa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Africa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B2B273227E5D8C500DDFFF0 /* AfricaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaApp.swift; sourceTree = "<group>"; };
 		8B2B273427E5D8C500DDFFF0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,6 +104,7 @@
 				8B20AE6227E5FBC300CB7279 /* CoverImageView.swift */,
 				8B20AE7227E60BFE00CB7279 /* InsetGalleryView.swift */,
 				8B20AE7627E60F8300CB7279 /* InsetFactView.swift */,
+				8B20AE7E27E6183700CB7279 /* VideoListItemView.swift */,
 				8B20AE7027E60ADD00CB7279 /* HeadingView.swift */,
 				8B20AE6A27E6052E00CB7279 /* AnimalListItemView.swift */,
 				8B20AE7827E6126C00CB7279 /* InsetMapView.swift */,
@@ -112,6 +117,7 @@
 			children = (
 				8B20AE6527E5FE3100CB7279 /* CoverImage.swift */,
 				8B20AE6C27E6067500CB7279 /* Animal.swift */,
+				8B20AE7C27E617A200CB7279 /* Video.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -291,6 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B20AE7F27E6183700CB7279 /* VideoListItemView.swift in Sources */,
 				8B20AE6D27E6067500CB7279 /* Animal.swift in Sources */,
 				8B2B273527E5D8C500DDFFF0 /* ContentView.swift in Sources */,
 				8B20AE6B27E6052E00CB7279 /* AnimalListItemView.swift in Sources */,
@@ -306,6 +313,7 @@
 				8B20AE6627E5FE3100CB7279 /* CoverImage.swift in Sources */,
 				8B2B276127E5DD5000DDFFF0 /* VideoListView.swift in Sources */,
 				8B20AE7327E60BFE00CB7279 /* InsetGalleryView.swift in Sources */,
+				8B20AE7D27E617A200CB7279 /* Video.swift in Sources */,
 				8B20AE7927E6126C00CB7279 /* InsetMapView.swift in Sources */,
 				8B2B276527E5DD7000DDFFF0 /* GalleryView.swift in Sources */,
 				8B20AE7127E60ADE00CB7279 /* HeadingView.swift in Sources */,
