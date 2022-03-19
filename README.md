@@ -1,2 +1,2 @@
-# africa-sample-ios
+# Africa App
 Sample SwiftUI App
