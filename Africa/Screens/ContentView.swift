@@ -8,9 +8,27 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    let animals: [Animal] = AppData.animals
     var body: some View {
-        Text("Content")
-            .padding()
+        NavigationView {
+            List {
+                CoverImageView()
+                    .frame(height: 300)
+                    .listRowInsets(.init())
+                
+                ForEach(animals) { animal in
+                    NavigationLink {
+                        AnimalDetailView(animal: animal)
+                    } label: {
+                        AnimalListItemView(animal: animal)
+                    } //: NavigationLink
+                } //: ForEach
+            } //: List
+            .navigationTitle("Africa")
+            .navigationBarTitleDisplayMode(.large)
+            .listStyle(.plain)
+        } //: NavigationView
     }
 }
 
