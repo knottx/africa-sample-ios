@@ -24,6 +24,7 @@
 		8B20AE8127E61D8400CB7279 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B20AE8027E61D8400CB7279 /* VideoPlayerView.swift */; };
 		8B20AE8327E61E6D00CB7279 /* VideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B20AE8227E61E6D00CB7279 /* VideoPlayer.swift */; };
 		8B20AE8527E6220500CB7279 /* NationalParkLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B20AE8427E6220500CB7279 /* NationalParkLocation.swift */; };
+		8B20AE8727E6255F00CB7279 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B20AE8627E6255F00CB7279 /* MapAnnotationView.swift */; };
 		8B2B273327E5D8C500DDFFF0 /* AfricaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B273227E5D8C500DDFFF0 /* AfricaApp.swift */; };
 		8B2B273527E5D8C500DDFFF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B273427E5D8C500DDFFF0 /* ContentView.swift */; };
 		8B2B273727E5D8C800DDFFF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B2B273627E5D8C800DDFFF0 /* Assets.xcassets */; };
@@ -66,6 +67,7 @@
 		8B20AE8027E61D8400CB7279 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		8B20AE8227E61E6D00CB7279 /* VideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayer.swift; sourceTree = "<group>"; };
 		8B20AE8427E6220500CB7279 /* NationalParkLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationalParkLocation.swift; sourceTree = "<group>"; };
+		8B20AE8627E6255F00CB7279 /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
 		8B2B272F27E5D8C500DDFFF0 /* Africa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Africa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B2B273227E5D8C500DDFFF0 /* AfricaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaApp.swift; sourceTree = "<group>"; };
 		8B2B273427E5D8C500DDFFF0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				8B20AE6A27E6052E00CB7279 /* AnimalListItemView.swift */,
 				8B20AE7827E6126C00CB7279 /* InsetMapView.swift */,
 				8B20AE8027E61D8400CB7279 /* VideoPlayerView.swift */,
+				8B20AE8627E6255F00CB7279 /* MapAnnotationView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 				8B20AE6B27E6052E00CB7279 /* AnimalListItemView.swift in Sources */,
 				8B2B276727E5DD7D00DDFFF0 /* MainView.swift in Sources */,
 				8B20AE6327E5FBC300CB7279 /* CoverImageView.swift in Sources */,
+				8B20AE8727E6255F00CB7279 /* MapAnnotationView.swift in Sources */,
 				8B20AE6F27E608E800CB7279 /* AnimalDetailView.swift in Sources */,
 				8B2B276327E5DD6300DDFFF0 /* MapView.swift in Sources */,
 				8B20AE7527E60D8300CB7279 /* AppData.swift in Sources */,
