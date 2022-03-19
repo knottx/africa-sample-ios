@@ -96,6 +96,7 @@
 		8B20AE6127E5FBA400CB7279 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8B20AE7A27E6156600CB7279 /* ExternalWebLinkView.swift */,
 				8B20AE6227E5FBC300CB7279 /* CoverImageView.swift */,
 				8B20AE7227E60BFE00CB7279 /* InsetGalleryView.swift */,
 				8B20AE7627E60F8300CB7279 /* InsetFactView.swift */,
@@ -127,7 +128,6 @@
 		8B2B272627E5D8C500DDFFF0 = {
 			isa = PBXGroup;
 			children = (
-				8B20AE7A27E6156600CB7279 /* ExternalWebLinkView.swift */,
 				8B2B273127E5D8C500DDFFF0 /* Africa */,
 				8B2B273027E5D8C500DDFFF0 /* Products */,
 			);
