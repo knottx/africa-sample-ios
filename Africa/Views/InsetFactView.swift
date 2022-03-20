@@ -27,7 +27,7 @@ struct InsetFactView_Previews: PreviewProvider {
     static let animals = AppData.animals
     
     static var previews: some View {
-        InsetFactView(animal: animals.first!)
+        InsetFactView(animal: .preview)
             .previewLayout(.sizeThatFits)
             .padding()
     }

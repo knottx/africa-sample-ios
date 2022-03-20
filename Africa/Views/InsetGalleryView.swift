@@ -29,7 +29,7 @@ struct InsetGalleryView_Previews: PreviewProvider {
     static let animals = AppData.animals
     
     static var previews: some View {
-        InsetGalleryView(animal: animals.first!)
+        InsetGalleryView(animal: .preview)
             .previewLayout(.sizeThatFits)
             .padding()
     }

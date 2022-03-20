@@ -32,10 +32,10 @@ struct ExternalWebLinkView: View {
 }
 
 struct ExternalWebLinkView_Previews: PreviewProvider {
-    static let animal = AppData.animals
+    static let animals = AppData.animals
     
     static var previews: some View {
-        ExternalWebLinkView(animal: animal.first!)
+        ExternalWebLinkView(animal: .preview)
             .previewLayout(.sizeThatFits)
             .padding()
     }

@@ -40,7 +40,7 @@ struct AnimalListItemView_Previews: PreviewProvider {
     static let animals = AppData.animals
     
     static var previews: some View {
-        AnimalListItemView(animal: animals.first!)
+        AnimalListItemView(animal: .preview)
             .previewLayout(.sizeThatFits)
             .padding()
     }
